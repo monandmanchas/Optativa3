@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    padding: 30px;
+    margin: 0 auto;
+}
+h2, h3 {
+    color: #333;
+}
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+}
+label {
+    display: block;
+    margin-top: px;
+    font-weight: bold;
+}
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+button {
+    background: #0066cc;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background: #004c99;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+    background: #fff;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+li {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+li:last-child {
+    border-bottom: none;
+}
